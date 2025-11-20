@@ -1,0 +1,15 @@
+#post {
+  width: 400px;
+  border: 1px solid black;
+}
+
+#heading {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+#title {
+  flex-grow: 1;
+  margin: 0 0.5rem;
+}
