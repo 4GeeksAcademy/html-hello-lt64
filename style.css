@@ -1,15 +1,9 @@
-#post {
-  width: 400px;
-  border: 1px solid black;
+.post {
+  width: 30rem;
 }
 
-#heading {
-  display: flex;
-  padding: 0.5rem;
-  align-items: center;
-}
-
-#title {
-  flex-grow: 1;
-  margin: 0 0.5rem;
+/* .post-image { */
+.post > img {
+  object-fit: contain;
+  width: 100%;
 }
